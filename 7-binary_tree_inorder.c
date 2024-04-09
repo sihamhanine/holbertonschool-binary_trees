@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *binary_tree_inorder - Function that traverses a binary tree using inorder 
+ * *binary_tree_inorder - Function that traverses a binary
+ * tree using inorder
  * @tree: the pointer to the root node of the tree to traverse
  * @func: a pointer to a function to call for each node.
  */
@@ -15,4 +16,3 @@ func(tree->n);
 binary_tree_inorder(tree->right, func);
 }
 }
-
