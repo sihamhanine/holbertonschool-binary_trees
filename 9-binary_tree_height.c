@@ -4,7 +4,7 @@
 #include <stddef.h>
 /**
  * *binary_tree_height - Function that measures the height
- * of a binary tree 
+ * of a binary tree
  * @tree: the pointer to the root node of the tree
  * to measure the height
  * Return: the height of the node
@@ -28,5 +28,5 @@ if (hl > hr)
 return (hl);
 else
 return (hr);
-} 
+}
 }

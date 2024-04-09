@@ -4,7 +4,7 @@
 #include <stddef.h>
 /**
  * *binary_tree_size - Function that measures the size
- * of a binary tree 
+ * of a binary tree
  * @tree: the pointer to the root node of the tree
  * to measure the height
  * Return: the size of the node
@@ -18,5 +18,5 @@ size = size + 1;
 size = size + binary_tree_size(tree->left);
 size = size + binary_tree_size(tree->right);
 }
-return (size); 
+return (size);
 }

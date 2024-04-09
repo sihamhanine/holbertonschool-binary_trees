@@ -4,7 +4,7 @@
 #include <stddef.h>
 /**
  * *binary_tree_depth - Function that measures the depth
- * of a binary tree 
+ * of a binary tree
  * @tree: the pointer to the root node of the tree
  * to measure the height
  * Return: the dept of the node
@@ -24,5 +24,5 @@ else
 {
 depth = 1 + binary_tree_depth(tree->parent);
 return (depth);
-} 
+}
 }
