@@ -4,7 +4,7 @@
 #include <stddef.h>
 /**
  * *binary_tree_leaves - Function that counts the leaves
- * in a binary tree 
+ * in a binary tree
  * @tree: the pointer to the to count the number of leaves
  * Return: the number of leaves in the tree
  */
@@ -14,7 +14,7 @@ size_t count;
 if (tree == NULL)
 {
 return (0);
-} 
+}
 if (tree->left == NULL && tree->right == NULL)
 {
 return (1);
